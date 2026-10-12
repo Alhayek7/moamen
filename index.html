@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Moamen Al-Madhoun — Photographer &amp; Video Editor | مؤمن المدهون</title>
+<meta name="description" content="مؤمن المدهون — مصوّر ومونتير فيديو من غزة. لحظات حقيقية تحكي قصصاً أعمق. | Photographer and video editor from Gaza. Capture · Create · Inspire.">
+<meta name="theme-color" content="#0d1b3d">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Moamen Al-Madhoun — Photographer &amp; Video Editor">
+<meta property="og:description" content="Capture · Create · Inspire — لحظات حقيقية تحكي قصصاً أعمق.">
+<meta property="og:image" content="https://alhayek7.github.io/moamen-almadhoun-portfolio/assets/og-image.png">
+<meta property="og:url" content="https://alhayek7.github.io/moamen-almadhoun-portfolio/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://alhayek7.github.io/moamen-almadhoun-portfolio/assets/og-image.png">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Tajawal:wght@400;500;700;800&family=Mrs+Saint+Delafield&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Home">
+      <img id="navMark" alt="" width="42" height="38">
+      <span id="navName"></span>
+    </a>
+    <nav class="links" aria-label="Sections">
+      <a href="#works" data-en="Work">الأعمال</a>
+      <a href="#services" data-en="Services">الخدمات</a>
+      <a href="#about" data-en="About">عني</a>
+      <a href="#partners" data-en="Partners">الشركاء</a>
+      <a href="#contact" data-en="Contact">تواصل</a>
+    </nav>
+    <div class="nav-r">
+      <a class="btn primary sm" href="#contact" data-en="Hire me">اطلب مشروعاً</a>
+      <button class="lang" id="langBtn" type="button" aria-label="Switch language">EN</button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <div class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="who"><i></i><span id="heroWho"></span></div>
+        <h1><span data-en="Real moments,">لحظات حقيقية...</span> <span class="g" data-en="deeper stories.">تحكي قصصاً أعمق</span></h1>
+        <p class="lead" data-en="A full kit for picture and sound, editing sped up with AI, and years of shooting for relief organisations and companies in Gaza.">معدات كاملة للصورة والصوت، ومونتاج تسرّعه أدوات الذكاء الاصطناعي، وتجربة تصوير مع مؤسسات إغاثية وشركات في غزة.</p>
+        <div class="cta">
+          <a class="btn primary" href="#works" data-magnet data-en="See the work">شاهد الأعمال</a>
+          <a class="btn" href="#contact" data-magnet data-en="Request a project">اطلب مشروعاً</a>
+        </div>
+        <div class="trio"><span>Capture</span><b></b><span>Create</span><b></b><span>Inspire</span></div>
+      </div>
+      <div class="stage" id="stage" role="img" aria-label="Moamen Al-Madhoun logo in 3D">
+        <img class="fb" id="fbMark" alt="" hidden>
+        <canvas id="logo3d"></canvas>
+        <div class="flash" id="flash"></div>
+        <div class="hint mono"><span id="frames">FRAME 0000</span><span data-en="MOVE · CLICK THE LENS">حرّك · اضغط على العدسة</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mq" aria-hidden="true"><div class="mq-track" id="mq"></div></div>
+
+  <section id="works" class="band dark">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="tag" data-en="Selected work">أعمال مختارة</div>
+        <h2 data-en="A ring of frames. Spin it.">حلقة من اللقطات، أدِرها بيدك</h2>
+        <p data-en="Drag, swipe or use the arrows. Tap the front frame to open it.">اسحب أو مرّر بإصبعك أو استخدم الأسهم. اضغط على الإطار الأمامي لفتحه.</p>
+      </div>
+      <div id="ringBox">
+        <div class="car" id="car" tabindex="0" aria-label="Works carousel"><div class="scene"><div class="ring" id="ring"></div></div></div>
+        <div class="car-ui">
+          <button class="round" id="prev" type="button" aria-label="Previous">←</button>
+          <div class="dots" id="dots"></div>
+          <button class="round" id="next" type="button" aria-label="Next">→</button>
+        </div>
+      </div>
+      <div class="empty" id="ringEmpty" hidden data-en="Work will appear here once it is added.">ستظهر الأعمال هنا بعد إضافتها.</div>
+    </div>
+  </section>
+
+  <section id="gallery" class="band">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="tag light-tag" data-en="Portfolio">المعرض</div>
+        <h2 data-en="Every project, in one place">كل المشاريع في مكان واحد</h2>
+        <p data-en="Filter by type and open any project for its photos, video link and details.">صفّ حسب النوع وافتح أي مشروع لمشاهدة صوره ورابط الفيديو وتفاصيله.</p>
+      </div>
+      <div class="filters" id="filters" role="group" aria-label="Filter"></div>
+      <div class="grid" id="grid"></div>
+      <div class="empty" id="gridEmpty" hidden data-en="No projects in this category yet.">لا توجد مشاريع في هذا التصنيف بعد.</div>
+    </div>
+  </section>
+
+  <section id="services" class="band tint">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="tag light-tag" data-en="What I do">ماذا أقدّم</div>
+        <h2 data-en="From the shoot to the final cut">من التصوير إلى المونتاج النهائي</h2>
+      </div>
+      <div class="cols">
+        <div class="panel" data-tilt>
+          <div class="ico"><svg viewBox="0 0 24 24"><path d="M4 8h3l1.6-2.4h6.8L17 8h3a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/><circle cx="12" cy="13" r="3.6"/></svg></div>
+          <h3 data-en="Photography and events">التصوير وتغطية الفعاليات</h3>
+          <p data-en="Field, event and portrait photography for organisations, campaigns and brands.">تصوير ميداني وفعاليات وبورتريه للمؤسسات والحملات والعلامات التجارية.</p>
+        </div>
+        <div class="panel" data-tilt>
+          <div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="7" width="13" height="11" rx="2"/><path d="M16 11l5-3v9l-5-3"/><circle cx="7" cy="4.5" r="1.8"/><circle cx="12.5" cy="4.5" r="1.8"/></svg></div>
+          <h3 data-en="Documentary films">الأفلام الوثائقية</h3>
+          <p data-en="Stories told on location, shot and cut to hold a viewer's attention.">قصص تُروى من الميدان، تُصوَّر وتُقطَّع لتشدّ المشاهد.</p>
+        </div>
+        <div class="panel" data-tilt>
+          <div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M10 9l5 3-5 3z"/></svg></div>
+          <h3 data-en="Promotional videos">فيديوهات دعائية</h3>
+          <p data-en="Short, clear videos that present an organisation, a campaign or a product.">فيديوهات قصيرة وواضحة تقدّم مؤسسة أو حملة أو منتجاً.</p>
+        </div>
+        <div class="panel" data-tilt>
+          <div class="ico"><svg viewBox="0 0 24 24"><path d="M4 7h10M4 12h16M4 17h7"/><circle cx="17" cy="7" r="2"/><circle cx="14" cy="17" r="2"/></svg></div>
+          <h3 data-en="Video editing">مونتاج الفيديو</h3>
+          <p data-en="Cutting, colour correction and pacing, finished for social, TV or events.">قص وتصحيح ألوان وضبط إيقاع، بنسخ جاهزة للمنصات أو الشاشات أو الفعاليات.</p>
+        </div>
+        <div class="panel" data-tilt>
+          <div class="ico"><svg viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11.5a6.5 6.5 0 0 0 13 0M12 18v3"/></svg></div>
+          <h3 data-en="Sound recording">تسجيل الصوت</h3>
+          <p data-en="Clean on-location audio, interviews and voice-over.">صوت نظيف في الموقع، ومقابلات، وتعليق صوتي.</p>
+        </div>
+        <div class="panel" data-tilt>
+          <div class="ico"><svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 3v3M15 3v3M9 18v3M15 18v3M3 9h3M3 15h3M18 9h3M18 15h3"/><path d="M9.5 15l1.6-6 1.6 6M10 13.2h2.2M14.6 9v6"/></svg></div>
+          <h3 data-en="AI-enhanced editing">مونتاج بمساعدة الذكاء الاصطناعي</h3>
+          <p data-en="AI tools shorten turnaround while the creative decisions stay human.">أدوات الذكاء الاصطناعي تختصر وقت التسليم، والقرار الإبداعي يبقى بشرياً.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="band">
+    <div class="wrap about">
+      <div class="portrait" id="portrait" data-tilt-soft></div>
+      <div>
+        <div class="tag light-tag" data-en="About">عني</div>
+        <h2 id="aboutName"></h2>
+        <p class="bio" id="aboutBio"></p>
+        <div class="facts">
+          <div class="fact"><span data-en="Education">التعليم</span><b data-en="Multimedia Diploma, University College of Applied Sciences">دبلوم وسائط متعددة، الكلية الجامعية للعلوم التطبيقية</b></div>
+          <div class="fact"><span data-en="Training">التدريب</span><b data-en="3 months at the Islamic University">3 أشهر في الجامعة الإسلامية</b></div>
+          <div class="fact"><span data-en="Kit">المعدات</span><b data-en="Full video and audio equipment of his own">معدات تصوير فيديو وصوت كاملة</b></div>
+          <div class="fact"><span data-en="Workflow">أسلوب العمل</span><b data-en="Editing sped up with AI tools">مونتاج بمساعدة أدوات الذكاء الاصطناعي</b></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="partners" class="band dark">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="tag" data-en="Worked with">عملت مع</div>
+        <h2 data-en="Organisations and companies I have shot for">مؤسسات وشركات صوّرت لها</h2>
+        <p data-en="Open their pages to see the work published there.">افتح صفحاتهم لمشاهدة الأعمال المنشورة عندهم.</p>
+      </div>
+      <div class="ptiles" id="ptiles"></div>
+    </div>
+  </section>
+
+  <section id="contact" class="band tint">
+    <div class="wrap hire">
+      <div>
+        <p class="sig" aria-hidden="true" id="sigName"></p>
+        <div class="tag light-tag" data-en="Let's work">لنعمل معاً</div>
+        <h2 data-en="Have a story to film?">عندك قصة تريد تصويرها؟</h2>
+        <p class="sub" data-en="Tell Moamen what you need and when. The form opens a WhatsApp message to him with your details.">أخبر مؤمن بما تحتاجه وموعده. النموذج يفتح لك رسالة واتساب جاهزة إليه بتفاصيلك.</p>
+        <div class="crow" id="crow"></div>
+        <div class="socials" id="socials"></div>
+      </div>
+      <form class="form" id="reqForm" novalidate>
+        <h3 data-en="Request a project">اطلب مشروعاً</h3>
+        <label class="fld" for="rqName"><span data-en="Your name or organisation">اسمك أو اسم المؤسسة</span><input id="rqName" type="text" autocomplete="name"></label>
+        <div class="row">
+          <label class="fld" for="rqType"><span data-en="Project type">نوع المشروع</span>
+            <select id="rqType">
+              <option data-en="Event photography">تصوير فعالية</option>
+              <option data-en="Documentary film">فيلم وثائقي</option>
+              <option data-en="Promotional video">فيديو دعائي</option>
+              <option data-en="Video editing only">مونتاج فقط</option>
+              <option data-en="Sound recording">تسجيل صوت</option>
+              <option data-en="Something else">شيء آخر</option>
+            </select>
+          </label>
+          <label class="fld" for="rqDate"><span data-en="When do you need it?">متى تحتاجه؟</span><input id="rqDate" type="text" data-ph="مثال: خلال أسبوعين|e.g. within two weeks"></label>
+        </div>
+        <label class="fld" for="rqMsg"><span data-en="Details">التفاصيل</span><textarea id="rqMsg" data-ph="ما الفكرة؟ أين؟ كم المدة؟|What is it, where, and how long?"></textarea></label>
+        <div class="cta">
+          <button class="btn primary" id="rqSend" type="submit" data-en="Send on WhatsApp">أرسل عبر واتساب</button>
+          <button class="btn" id="rqCopy" type="button" data-en="Copy message">انسخ الرسالة</button>
+        </div>
+        <a id="rqLink" href="#" target="_blank" rel="noopener" hidden>wa</a>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fl"><img id="ftMark" alt=""><span id="ftText"></span></div>
+    <div class="fl"><span class="mono">CAPTURE · CREATE · INSPIRE</span><button class="adminlink" id="adminBtn" type="button" data-en="Manage content">إدارة المحتوى</button></div>
+  </div>
+</footer>
+
+<div class="modal" id="modal" hidden>
+  <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="mTitle">
+    <div class="top"><button class="lang" id="mClose" type="button" data-en="Close">إغلاق</button></div>
+    <div class="mmain" id="mMain"></div>
+    <div class="thumbs" id="mThumbs"></div>
+    <h3 id="mTitle"></h3>
+    <dl id="mMeta"></dl>
+    <p class="desc" id="mDesc"></p>
+    <div class="cta" id="mCta"></div>
+  </div>
+</div>
+
+<div class="admin" id="admin" hidden>
+  <div class="adm" role="dialog" aria-modal="true" aria-labelledby="admTitle">
+    <div class="adm-head">
+      <h2 id="admTitle" data-en="Content manager">إدارة المحتوى</h2>
+      <span class="st" id="admStatus"></span>
+      <button class="btn cy" id="admSave" type="button" style="padding:8px 20px;font-size:14px" data-en="Download content">تنزيل المحتوى</button>
+      <button class="mini" id="admClose" type="button" data-en="Close">إغلاق</button>
+    </div>
+    <div class="adm-tabs" id="admTabs" role="tablist"></div>
+    <div class="adm-body" id="admBody"></div>
+  </div>
+</div>
+
+<div class="toast" id="toast" aria-live="polite"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,221 @@
+{
+  "v": 1,
+  "profile": {
+    "photo": "",
+    "name": [
+      "مؤمن المدهون",
+      "Moamen Al-Madhoun"
+    ],
+    "title": [
+      "مصوّر ومونتير فيديو",
+      "Photographer & Video Editor"
+    ],
+    "loc": [
+      "غزة، فلسطين",
+      "Gaza, Palestine"
+    ],
+    "bio": [
+      "مصوّر ومونتير فيديو، خريج دبلوم الوسائط المتعددة من الكلية الجامعية للعلوم التطبيقية. أملك معدات كاملة للتصوير والصوت، وصوّرت لمؤسسات إغاثية وشركات في غزة، وأسرّع المونتاج بأدوات الذكاء الاصطناعي مع الحفاظ على اللمسة البشرية.",
+      "Photographer and video editor with a Multimedia Diploma from the University College of Applied Sciences. I own a full kit for picture and sound, have shot for relief organisations and companies in Gaza, and speed up editing with AI tools while keeping the human touch."
+    ]
+  },
+  "contact": {
+    "phone": "0597244136",
+    "wa": "970597244136",
+    "email": "",
+    "web": "",
+    "instagram": "",
+    "facebook": "",
+    "youtube": "",
+    "tiktok": "",
+    "linkedin": ""
+  },
+  "works": [
+    {
+      "id": "w1",
+      "type": "video",
+      "title": [
+        "فيلم وثائقي",
+        "Documentary film"
+      ],
+      "org": "",
+      "role": [
+        "تصوير ومونتاج",
+        "Shooting and edit"
+      ],
+      "year": "",
+      "desc": [
+        "وصف مختصر للمشروع: الفكرة، الجهة، ودور مؤمن فيه. (نص تجريبي يُستبدل لاحقاً)",
+        "A short description of the project: the idea, the client and Moamen's role. (Placeholder text, to be replaced)"
+      ],
+      "cover": "",
+      "gallery": [],
+      "link": "",
+      "sample": true
+    },
+    {
+      "id": "w2",
+      "type": "event",
+      "title": [
+        "تغطية فعالية",
+        "Event coverage"
+      ],
+      "org": "",
+      "role": [
+        "تصوير",
+        "Photography"
+      ],
+      "year": "",
+      "desc": [
+        "وصف مختصر للمشروع: الفكرة، الجهة، ودور مؤمن فيه. (نص تجريبي يُستبدل لاحقاً)",
+        "A short description of the project: the idea, the client and Moamen's role. (Placeholder text, to be replaced)"
+      ],
+      "cover": "",
+      "gallery": [],
+      "link": "",
+      "sample": true
+    },
+    {
+      "id": "w3",
+      "type": "video",
+      "title": [
+        "فيديو دعائي",
+        "Promo video"
+      ],
+      "org": "",
+      "role": [
+        "تصوير وصوت ومونتاج",
+        "Camera, sound, edit"
+      ],
+      "year": "",
+      "desc": [
+        "وصف مختصر للمشروع: الفكرة، الجهة، ودور مؤمن فيه. (نص تجريبي يُستبدل لاحقاً)",
+        "A short description of the project: the idea, the client and Moamen's role. (Placeholder text, to be replaced)"
+      ],
+      "cover": "",
+      "gallery": [],
+      "link": "",
+      "sample": true
+    },
+    {
+      "id": "w4",
+      "type": "photo",
+      "title": [
+        "بورتريه",
+        "Portrait series"
+      ],
+      "org": "",
+      "role": [
+        "تصوير",
+        "Photography"
+      ],
+      "year": "",
+      "desc": [
+        "وصف مختصر للمشروع: الفكرة، الجهة، ودور مؤمن فيه. (نص تجريبي يُستبدل لاحقاً)",
+        "A short description of the project: the idea, the client and Moamen's role. (Placeholder text, to be replaced)"
+      ],
+      "cover": "",
+      "gallery": [],
+      "link": "",
+      "sample": true
+    },
+    {
+      "id": "w5",
+      "type": "photo",
+      "title": [
+        "تصوير ميداني",
+        "Field photography"
+      ],
+      "org": "",
+      "role": [
+        "تصوير",
+        "Photography"
+      ],
+      "year": "",
+      "desc": [
+        "وصف مختصر للمشروع: الفكرة، الجهة، ودور مؤمن فيه. (نص تجريبي يُستبدل لاحقاً)",
+        "A short description of the project: the idea, the client and Moamen's role. (Placeholder text, to be replaced)"
+      ],
+      "cover": "",
+      "gallery": [],
+      "link": "",
+      "sample": true
+    },
+    {
+      "id": "w6",
+      "type": "event",
+      "title": [
+        "حملة مؤسسية",
+        "Campaign shoot"
+      ],
+      "org": "",
+      "role": [
+        "تصوير ومونتاج",
+        "Shooting and edit"
+      ],
+      "year": "",
+      "desc": [
+        "وصف مختصر للمشروع: الفكرة، الجهة، ودور مؤمن فيه. (نص تجريبي يُستبدل لاحقاً)",
+        "A short description of the project: the idea, the client and Moamen's role. (Placeholder text, to be replaced)"
+      ],
+      "cover": "",
+      "gallery": [],
+      "link": "",
+      "sample": true
+    }
+  ],
+  "partners": [
+    {
+      "id": "p1",
+      "name": [
+        "مؤسسة زكاة الأمريكية",
+        "American Zakat Foundation"
+      ],
+      "role": [
+        "مصوّر لدى المؤسسة",
+        "Photographer for the foundation"
+      ],
+      "url": "",
+      "logo": ""
+    },
+    {
+      "id": "p2",
+      "name": [
+        "جمعية مؤاخاة التركية",
+        "Muaakhat Association (Turkey)"
+      ],
+      "role": [
+        "مصوّر لدى الجمعية",
+        "Photographer for the association"
+      ],
+      "url": "",
+      "logo": ""
+    },
+    {
+      "id": "p3",
+      "name": [
+        "مؤسسة جلوكال شيفت",
+        "Global Shift"
+      ],
+      "role": [
+        "مصوّر لدى المؤسسة",
+        "Photographer for the organisation"
+      ],
+      "url": "",
+      "logo": ""
+    },
+    {
+      "id": "p4",
+      "name": [
+        "شركة يبرين، غزة",
+        "Yebrin, Gaza"
+      ],
+      "role": [
+        "مصوّر لدى الشركة",
+        "Photographer for the company"
+      ],
+      "url": "",
+      "logo": ""
+    }
+  ]
+}
